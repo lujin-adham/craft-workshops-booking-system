@@ -1,6 +1,6 @@
 # Craft Workshops Booking System
 
-**Prepared by:** Lujin Adham Magdy Mohamed
+**Prepared by:** Lujin Adham
 
 ## Description
 The Craft Workshops Booking System is a web application designed to manage and book creative craft workshops such as pottery painting, crochet, and handmade crafts. The system allows users to browse upcoming workshops, view detailed schedules and seat availability, and secure their position by entering simple contact details. It features automated seat-tracking to ensure workshops don't exceed their maximum capacity.
@@ -40,6 +40,3 @@ The following diagram illustrates the database schema, including all entities (W
    ```
    dotnet run
    ```
-
-## Author
-Lujin Adham
