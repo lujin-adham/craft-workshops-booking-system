@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="text-white fw-bold">Discover Your Creativity</h1>
+    
+    <p class="text-white mt-3" style="font-size: 1.2rem;">
+        Explore our hand-crafted workshops, learn new skills, and book your spot today.
+    </p>
+
+    <a asp-controller="Workshop" asp-action="Index" class="btn btn-lg mt-4 px-4 py-2 fw-bold text-white" style="background-color: #C4A77D; border-color: #C4A77D; outline: none !important; box-shadow: none !important; transition: background-color 0.2s ease;" onmouseover="this.style.backgroundColor='#A68B63';" onmouseout="this.style.backgroundColor='#C4A77D';">
+        Explore Workshops
+    </a>
+</div>
